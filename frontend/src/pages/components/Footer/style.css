@@ -1,4 +1,4 @@
-.footer {
+ .footer {
     width: 100%;
     padding: 24px;
     display: flex;
@@ -15,13 +15,13 @@
 
 .contactTitle{
     padding: 8px;
-    font-size: 18px;
+    font-size: 16px;
     color: #293845;
     font-weight: bold;
 }
 
 .contactDescription{
-    font-size: 16px;
+    font-size: 14px;
     padding-bottom: 4px;
     color: #293845;
 }
@@ -41,12 +41,13 @@
  
  .navbarLinksFooter {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
  }
  
  .navLinkFooter {
      padding: 8px 32px;
-     font-size: 16px;
+     font-size: 14px;
      color: #293845;
      text-decoration: none;
  }
@@ -63,7 +64,7 @@
 
 .socialsTitle {
     padding: 8px;
-    font-size: 18px;
+    font-size: 16px;
     color: #293845;
     font-weight: bold;
     margin-bottom: 4px;
