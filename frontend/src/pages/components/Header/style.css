@@ -1,0 +1,50 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    margin-bottom: 24;
+    padding: 24px;
+
+    display: flex;
+    flex-direction: row;
+}
+.logoContainer {
+    width: 10%;
+}
+.logo {
+   width: 220px;
+}
+
+.navbarLinks {
+   width: 80%;
+   text-align: center;
+   padding-top: 10px;
+}
+
+.navLink {
+    padding: 8px;
+    font-size: 24px;
+    color: #293845;
+    text-decoration: none;
+}
+
+.navLink:hover {
+    color:#F56D27;
+}
+
+.loginButtonBox {
+   padding-top: 10px;
+}
+
+.loginButton {
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+    padding: 10px;
+    background-color: #F56D27;
+
+    border-radius: 5px;
+}

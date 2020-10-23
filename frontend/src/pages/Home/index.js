@@ -1,11 +1,15 @@
 import React from 'react';
 
+import Header from '../components/Header/index.js';
 // import { Container } from './styles';
+
+
 
 function Home() {
   return (
     <div>
-      <p>Teste</p>
+      <Header />
+      
     </div>
   );
 }
