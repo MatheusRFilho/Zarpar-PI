@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.css';
+
+import Routes from './routes';
+import './assets/styles/global.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Zarpar</h1>
-    </div>
+    <Routes />
   );
 }
 
