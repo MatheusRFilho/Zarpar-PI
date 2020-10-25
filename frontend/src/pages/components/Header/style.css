@@ -10,9 +10,9 @@
     display: flex;
     flex-direction: row;
 
-    background-color: #FFFFFF;
+    background-color: var(--white);
 
-    border-bottom: 1px solid #C3CFD9;
+    border-bottom: 1px solid var(--border-light-grey);
 }
 .logoContainer {
     width: 10%;
@@ -31,12 +31,12 @@
 .navLink {
     padding: 0px 32px;
     font-size: 20px;
-    color: #293845;
+    color: var(--main-text-color);
     text-decoration: none;
 }
 
 .navLink:hover {
-    color:#F56D27;
+    color:var(--main-orange);
 }
 
 .loginButtonBox {
@@ -45,11 +45,11 @@
 
 .loginButton {
     font-size: 20px;
-    color: #FFFFFF;
+    color: var(--white);
     text-decoration: none;
 
     padding: 10px;
-    background-color: #F56D27;
+    background-color: var(--main-orange);
 
     border-radius: 5px;
 }
