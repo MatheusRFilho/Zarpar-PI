@@ -12,7 +12,9 @@ function Header() {
     
     <header className="navbar">
       <div className="logoContainer">
+        <Link to='/'>
         <img src={logo} alt="Zarpar" className="logo"/>
+        </Link>
       </div>
       <div className="navbarLinks">
         <Link to='/' className="navLink">Inicio</Link>
