@@ -30,11 +30,13 @@ function Login() {
                     <input type="submit" value="Entrar" className="sendButton"/>
                 </div>
             </form>
-            <Link to="/" className="textLinkRegister"><p>Ainda não tem um Cadastro? a gente já resolve isso</p></Link>
-                              
+            <Link to="/" className="textLinkRegister"><p>Ainda não tem um Cadastro? a gente já resolve isso</p></Link>                   
           </div>
       </main>
-      <Footer />
+      <div id="footer">
+        <Footer />
+      </div>
+      
     </div>
   );
 }

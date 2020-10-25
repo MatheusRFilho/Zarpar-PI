@@ -81,3 +81,10 @@
     text-decoration: none;
     color: var(--main-text-color);
 }
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
