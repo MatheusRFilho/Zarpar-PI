@@ -21,7 +21,7 @@ function Header() {
         <Link to='/' className="navLink">Contato</Link>
       </div>
       <div className="loginButtonBox">
-        <Link to='/' className="loginButton">Entrar</Link>
+        <Link to='/Login' className="loginButton">Entrar</Link>
       </div>
     </header>
   );
