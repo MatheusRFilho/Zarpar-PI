@@ -5,9 +5,7 @@ import './assets/styles/global.css';
 import './assets/styles/colors.css';
 
 function App() {
-  return (
-    <Routes />
-  );
+  return <Routes />;
 }
 
 export default App;
