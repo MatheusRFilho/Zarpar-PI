@@ -1,0 +1,55 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    margin-bottom: 24;
+    padding: 24px;
+
+    display: flex;
+    flex-direction: row;
+
+    background-color: var(--white);
+
+    border-bottom: 1px solid var(--border-light-grey);
+}
+.logoContainer {
+    width: 10%;
+    padding-left: 40px;
+}
+.logo {
+   width: 220px;
+}
+
+.navbarLinks {
+   width: 80%;
+   text-align: center;
+   padding-top: 20px;
+}
+
+.navLink {
+    padding: 0px 32px;
+    font-size: 20px;
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+.navLink:hover {
+    color:var(--main-orange);
+}
+
+.loginButtonBox {
+    padding-top: 20px;
+}
+
+.loginButton {
+    font-size: 20px;
+    color: var(--white);
+    text-decoration: none;
+
+    padding: 10px;
+    background-color: var(--main-orange);
+
+    border-radius: 5px;
+}

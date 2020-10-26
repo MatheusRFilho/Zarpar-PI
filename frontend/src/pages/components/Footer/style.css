@@ -1,0 +1,78 @@
+
+ 
+ .footer {
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+
+    border-top: 1px solid var(--border-light-grey);
+}
+
+.contactContainer{
+    width: 25%;
+    align-content: center;
+    text-align: center;
+}
+
+.contactTitle{
+    padding: 8px;
+    font-size: 16px;
+    color: var(--main-text-color);
+    font-weight: bold;
+}
+
+.contactDescription{
+    font-size: 14px;
+    padding-bottom: 4px;
+    color: var(--main-text-color);
+}
+
+.middleContainer {
+    width: 50%;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.logoFooter {
+    width: 100px;
+    align-content: center;
+    padding-top: 8px;
+ }
+ 
+ .navbarLinksFooter {
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 20px;
+ }
+ 
+ .navLinkFooter {
+     padding: 8px 32px;
+     font-size: 14px;
+     color: var(--main-text-color);
+     text-decoration: none;
+ }
+ 
+ .navLinkFooter:hover {
+     color: var(--main-orange);
+ }
+
+.socialsContainer {
+    width: 25%;
+    align-content: center;
+    text-align: center;
+}
+
+.socialsTitle {
+    padding: 8px;
+    font-size: 16px;
+    color: var(--main-text-color);
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.socialsList li {
+    display: inline;
+    padding: 8px;
+}

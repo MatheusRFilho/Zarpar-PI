@@ -1,0 +1,90 @@
+.content {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    
+}
+.imageContainer {
+    padding: 50px 0 50px 200px;
+    text-align: center;
+}
+
+.image {
+    width: 388px;
+}
+
+.formContainer {
+    padding: 50px 200px 50px 0px;
+    text-align: center;
+}
+
+.formTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--main-text-color);
+    margin-top: 20px;
+}
+
+.formInput {
+    height: 40px;
+    width: 325px;
+    padding: 0.2em;
+
+    border: 1px solid var(--border-grey);
+    box-shadow: 2px 2px 2px var(--black-20-opacity);
+    margin-top: 20px;
+
+    border-radius: 5px;
+}
+.formInput::placeholder {
+    padding-left: 10px;
+}
+
+.textLinkPassword {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--main-text-color);
+
+    text-align: right;
+}
+
+.textLinkPasswordContainer {
+    height: 40px;
+    width: 400px;
+    align-self: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.sendButton {
+    font-size: 20px;
+    color: var(--white);
+    text-decoration: none;
+
+    padding: 10px 50px;
+    background-color: var(--main-orange);
+
+    box-shadow: 0px 0px 0px var(--black-20-opacity);
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+.sendButtonContainer {
+    box-shadow: 0px 0px 0px var(--black-20-opacity);
+    margin-bottom: 20px;
+}
+
+.textLinkRegister {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
