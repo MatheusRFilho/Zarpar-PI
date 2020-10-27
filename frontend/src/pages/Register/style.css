@@ -39,3 +39,33 @@
       margin-left: 10%;
       margin-right: 10%;
   }
+
+  .continueButton {
+    font-size: 20px;
+    color: var(--white);
+    text-decoration: none;
+
+    padding: 10px 50px;
+    background-color: var(--main-orange);
+
+    box-shadow: 0px 0px 0px var(--black-20-opacity);
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+
+    margin: 20px 0;
+}
+
+.continueButtonContainer {
+    box-shadow: 0px 0px 0px var(--black-20-opacity);
+    margin-bottom: 20px;
+    margin: 0 20px;
+}
+
+.textLinkLogin {
+    font-size: 16px;
+    text-decoration: var(--main-text-color);
+    color: var(--main-text-color);
+    text-align: center;
+    margin-bottom: 50px;
+}

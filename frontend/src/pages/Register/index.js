@@ -64,7 +64,13 @@ function Register() {
               className="formInput"
               placeholder="Celular (Emergência)"
             />
+            <div className="continueButtonContainer">
+              <input type="submit" value="Continuar" className="continueButton" />
+            </div>
         </form>
+        <Link to="/Login" className="textLinkLogin">
+                <p>Era pra ser Login? Então entra aqui para fazer</p>
+            </Link>
       </div>
       <Footer />
     </div>
