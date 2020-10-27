@@ -37,19 +37,19 @@ function Home() {
           <h1 className="titleAboutUs">Sobre nós</h1>
           <div className="topics">
             <div className="topic">
-              <img src={topicsLogo} alt="Imagem do tópico" />
+              <img src={topicsLogo} alt="Imagem do tópico1" />
               <h4>Lorem</h4>
             </div>
             <div className="topic">
-              <img src={topicsLogo} alt="Imagem do tópico" />
+              <img src={topicsLogo} alt="Imagem do tópico2" />
               <h4>Lorem</h4>
             </div>
             <div className="topic">
-              <img src={topicsLogo} alt="Imagem do tópico" />
+              <img src={topicsLogo} alt="Imagem do tópico3" />
               <h4>Lorem</h4>
             </div>
             <div className="topic">
-              <img src={topicsLogo} alt="Imagem do tópico" />
+              <img src={topicsLogo} alt="Imagem do tópico4" />
               <h4>Lorem</h4>
             </div>
           </div>

@@ -15,7 +15,7 @@ function Register() {
       <Header />
       <div className="container">
         <div className="bannerContainer">
-            <img className="banner" src={image} />
+            <img className="banner" src={image} alt="banner"/>
         </div>
        <div className="RegisterformContainer">
            <h1 className="registertitle">Cadastro</h1>
