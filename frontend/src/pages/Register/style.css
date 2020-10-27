@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 120px 0 0;
+  }
+  
+  .bannerContainer {
+      width: 100%;
+  }
+
+  .banner {
+      width: 100%;
+      height: 250px;
+  }
+
+  .RegisterformContainer {
+    padding: 20px 0;
+    width: 80%;
+    text-align: center;
+    align-self: center;
+  }
+
+  .registertitle {
+      font-size: 20px;
+      color: var(--main-text-color);
+      font-weight: 700;
+  }
+
+  .registerForm {
+      align-self: center;
+      width: 100%;
+      align-content: center;
+      text-align: center;
+  }
+
+  .line {
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+  }
