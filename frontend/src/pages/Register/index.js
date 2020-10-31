@@ -65,7 +65,7 @@ function Register() {
               placeholder="Celular (Emergência)"
             />
             <div className="continueButtonContainer">
-              <Link className="continueButton" >Continuar</Link>
+              <Link className="continueButton" to='/EndRegister'>Continuar</Link>
             </div>
         </form>
         <Link to="/Login" className="textLinkLogin">

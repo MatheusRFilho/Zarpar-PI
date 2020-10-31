@@ -69,8 +69,8 @@ function Register2() {
             </div>
         </form>
         <Link to="/Login" className="textLinkLogin">
-                <p>Era pra ser Login? Então entra aqui para fazer</p>
-            </Link>
+            <p>Era pra ser Login? Então entra aqui para fazer</p>
+        </Link>
       </div>
       <Footer />
     </div>
