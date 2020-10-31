@@ -23,23 +23,23 @@ function Register2() {
         <form className="registerForm">
             <input
               type="text"
-              name="name"
+              name="logradouro"
               className="formInput"
-              placeholder="Nome Fantasia"
+              placeholder="Logradouro"
             />
             <br />
             <input
               type="text"
-              name="cpf"
+              name="bairro"
               className="formInput"
-              placeholder="CPF/CNPJ"
+              placeholder="Bairro"
             />
             <br />
             <input
-              type="email"
-              name="email"
+              type="text"
+              name="cidade"
               className="formInput"
-              placeholder="E-mail"
+              placeholder="Cidade"
             />
             <br />
             <input
@@ -49,23 +49,45 @@ function Register2() {
               placeholder="Senha"
             />
             <br />
-            <br />
-            <hr className="line"/>
             <input
               type="text"
-              name="celular"
-              className="formInput"
-              placeholder="Celular"
+              name="numero"
+              className="formInputHalf"
+              placeholder="Número"
             />
-            <br />
-            <input
-              type="text"
-              name="celular2"
-              className="formInput"
-              placeholder="Celular (Emergência)"
-            />
+            <select name="select" className="formInputHalfSelect">
+              <option value="uf" disabled selected>UF</option> 
+              <option value="AC">AC</option>
+              <option value="AL">AL</option>
+              <option value="AP">AP</option>
+              <option value="AM">AM</option>
+              <option value="BA">BA</option>
+              <option value="CE">CE</option>
+              <option value="DF">DF</option>
+              <option value="ES">ES</option>
+              <option value="GO">GO</option>
+              <option value="MA">MA</option>
+              <option value="MT">MT</option>
+              <option value="MS">MS</option>
+              <option value="MG">MG</option>
+              <option value="PA">PA</option>
+              <option value="PB">PB</option>
+              <option value="PR">PR</option>
+              <option value="PE">PE</option>
+              <option value="PI">PI</option>
+              <option value="RJ">RJ</option>
+              <option value="RN">RN</option>
+              <option value="RS">RS</option>
+              <option value="RO">RO</option>
+              <option value="RR">RR</option>
+              <option value="SC">SC</option>
+              <option value="SP">SP</option>
+              <option value="SE">SE</option>
+              <option value="TO">TO</option>
+            </select>
             <div className="continueButtonContainer">
-              <input type="submit" value="Continuar" className="continueButton" />
+              <Link className="backButton" to='/Register'>Voltar</Link>
+              <input type="submit" value="Finalizar" className="EndButton" />
             </div>
         </form>
         <Link to="/Login" className="textLinkLogin">
