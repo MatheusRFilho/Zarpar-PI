@@ -56,7 +56,7 @@ function Register2() {
               placeholder="Número"
             />
             <select name="select" className="formInputHalfSelect">
-              <option value="uf" disabled selected>UF</option> 
+              <option value="uf" disabled selected hidden>UF</option> 
               <option value="AC">AC</option>
               <option value="AL">AL</option>
               <option value="AP">AP</option>
