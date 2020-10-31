@@ -9,7 +9,7 @@ import './style.css';
 import image from '../../images/noImage.png';
 
 
-function Register() {
+function Register2() {
   return (
     <div>
       <Header />
@@ -65,16 +65,16 @@ function Register() {
               placeholder="Celular (Emergência)"
             />
             <div className="continueButtonContainer">
-              <Link className="continueButton" >Continuar</Link>
+              <input type="submit" value="Continuar" className="continueButton" />
             </div>
         </form>
         <Link to="/Login" className="textLinkLogin">
-          <p>Era pra ser Login? Então entra aqui para fazer</p>
-        </Link>
+                <p>Era pra ser Login? Então entra aqui para fazer</p>
+            </Link>
       </div>
       <Footer />
     </div>
   );
 }
 
-export default Register;
+export default Register2;
