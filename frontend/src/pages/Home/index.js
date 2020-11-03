@@ -19,6 +19,9 @@ const plan2 =
 const plan3 =
   'https://i.picsum.photos/id/48/200/300.jpg?hmac=p1L57uKWk-HOLxkodQjf0Q4BpaqgWYhEgWyGaeIpG_k';
 
+const contact =
+  'https://i.picsum.photos/id/825/600/400.jpg?hmac=wpC-fUCy8oHcTKEfwBk0rFSWtQGPCFqcmG0atdbBBbU';
+
 function Home() {
   return (
     <div>
@@ -92,6 +95,18 @@ function Home() {
             <img src={plan1} alt="Plan 1" className="plan-img" />
             <img src={plan2} alt="Plan 2" className="plan-img plan-principal" />
             <img src={plan3} alt="Plan 3" className="plan-img" />
+          </section>
+        </section>
+        <hr className="divisor" />
+        <section className="contactFormContainer">
+          <h1 className="containerTitle">Contato</h1>
+          <section className="contact">
+            <img src={contact} alt="Contato" />
+            <form className="contact-form">
+              <input placeholder="Seu nome" />
+              <input placeholder="Seu email" />
+              <textarea placeholder="Mensagem" rows="8" />
+            </form>
           </section>
         </section>
       </div>
