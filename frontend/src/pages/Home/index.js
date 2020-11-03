@@ -9,6 +9,16 @@ import './styles.css';
 const topicsLogo =
   'https://i.picsum.photos/id/599/200/200.jpg?hmac=2WLKs3sxIsaEQ-6WZaa6YMxgl6ZC4cNnid0aqupm2is';
 
+const descImg =
+  'https://i.picsum.photos/id/1047/400/200.jpg?hmac=Bj61XAq4JO4CibUVrxeSiIIbH4ZZtoDIWSkxNlXUvsQ';
+
+const plan1 =
+  'https://i.picsum.photos/id/391/200/300.jpg?hmac=3xP-y2PRN2E0__aPOCp1sja7XrimKgLQAMiSaNd0Cko';
+const plan2 =
+  'https://i.picsum.photos/id/203/200/300.jpg?hmac=mJaqsySlyEjr8fLBHytyVCUyqlfPSxqXePXEIhZZi_Y';
+const plan3 =
+  'https://i.picsum.photos/id/48/200/300.jpg?hmac=p1L57uKWk-HOLxkodQjf0Q4BpaqgWYhEgWyGaeIpG_k';
+
 function Home() {
   return (
     <div>
@@ -31,10 +41,10 @@ function Home() {
             </Link>
           </div>
         </section>
-        <hr />
+        <hr className="divisor" />
         <section className="aboutUs">
           <input className="searchInput" placeholder="Pesquisar" />
-          <h1 className="titleAboutUs">Sobre nós</h1>
+          <h1 className="containerTitle">Sobre nós</h1>
           <div className="topics">
             <div className="topic">
               <img src={topicsLogo} alt="Imagem do tópico1" />
@@ -53,6 +63,36 @@ function Home() {
               <h4>Lorem</h4>
             </div>
           </div>
+        </section>
+        <hr className="divisor" />
+        <section className="descriptionContainer">
+          <section className="left-desc">
+            <p className="desc-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iste
+              nostrum maxime? Unde libero tenetur ut architecto, voluptas dolore
+              inventore debitis nobis explicabo optio accusamus iure incidunt
+              repellat, assumenda ipsa.
+            </p>
+            <img src={descImg} alt="Description" />
+          </section>
+          <section className="right-desc">
+            <img src={descImg} alt="Description" />
+            <p className="desc-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iste
+              nostrum maxime? Unde libero tenetur ut architecto, voluptas dolore
+              inventore debitis nobis explicabo optio accusamus iure incidunt
+              repellat, assumenda ipsa.
+            </p>
+          </section>
+        </section>
+        <hr className="divisor" />
+        <section className="plansContainer">
+          <h1 className="containerTitle">Planos</h1>
+          <section className="plans">
+            <img src={plan1} alt="Plan 1" className="plan-img" />
+            <img src={plan2} alt="Plan 2" className="plan-img plan-principal" />
+            <img src={plan3} alt="Plan 3" className="plan-img" />
+          </section>
         </section>
       </div>
       <Footer />

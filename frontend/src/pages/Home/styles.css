@@ -7,7 +7,7 @@
 
 .presentationBanner {
   height: 450px;
-  margin: 0 8px;
+  margin: 0 112px;
   /* background-image: "url(https://i.picsum.photos/id/335/700/300.jpg?hmac=kN7rykTj1x5cR4iKfW1oci2qKz9yCoRhpePE08YAzvI)"; */
   background-color: var(--border-grey);
   display: flex;
@@ -78,8 +78,62 @@
   border: 2px solid var(--border-grey);
 }
 
-.titleAboutUs {
+.containerTitle {
   margin-top: 74px;
   margin-bottom: 40px;
   text-transform: uppercase;
+}
+
+.divisor {
+  width: 90%;
+  height: 0;
+  align-self: center;
+  border: 0.2px solid var(--border-grey);
+}
+
+.descriptionContainer {
+  width: 80%;
+  margin: 52px 112px;
+  align-self: center;
+}
+
+.right-desc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.left-desc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.desc-text{
+  max-width: 410px;
+}
+
+.plansContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.plans {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.plan-img {
+  height: 250px;
+}
+
+.plan-principal{
+  height: 300px;
 }
