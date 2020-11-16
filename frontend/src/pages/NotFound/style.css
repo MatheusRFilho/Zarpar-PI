@@ -1,0 +1,119 @@
+.content {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    
+}
+.imageContainer {
+    padding: 50px 0 50px 200px;
+    text-align: center;
+}
+
+.image {
+    width: 388px;
+}
+
+.formContainer {
+    padding: 50px 200px 50px 0px;
+}
+
+.formTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--main-text-color);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Login-Field {
+    height: 40px;
+    width: 100%;
+    padding: 0.2em;
+    margin-top: 5px;
+    border: 1px solid var(--border-grey);
+    box-shadow: 2px 2px 2px var(--black-20-opacity);
+    transition: all .1s linear;
+    border-radius: 5px;
+
+}
+
+.Login-Field:focus {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    outline: none;
+}
+
+.Login-Field::placeholder {
+    padding-left: 10px;
+}
+
+.textLinkPassword {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--main-text-color);
+
+    text-align: right;
+}
+
+.textLinkPasswordContainer {
+    
+    align-self: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.Login-Error-Container {
+    
+    align-self: flex-end;
+    justify-content: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Login-Btn {
+    font-size: 20px;
+    color: var(--white);
+    text-decoration: none;
+
+    padding: 10px 50px;
+    background-color: var(--main-orange);
+
+    box-shadow: 0px 0px 0px var(--black-20-opacity);
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 35%;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Login-Btn:focus {
+    outline: none;
+}
+
+
+.textLinkRegister {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--main-text-color);
+    text-align: center;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.Login-error {
+    color: var(--main-red);
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.Login {
+    margin-bottom: 10px;
+}
