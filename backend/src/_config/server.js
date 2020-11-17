@@ -1,18 +1,16 @@
 const Koa = require('koa')
 const Router = require('koa-router')
+const applyRoutes = require('./routes')
 
-const app = new Koa()
-const router = new Router()
+const app = new Koa();
+const router = new Router();
 
 module.exports = () => {
-    console.log('[Koa] creating a new server')
-    
-    router.get('/', ctx => {
-        const { response } = ctx 
-        response.body = { message: 'Hello Koa'}
-    })
+    console.log('[Koa] creating a new server');
 
-    app.use(router.routes())
+    applyRoutes(router);
+    
+    app.use(router.routes());
 
     app.listen(8080);
 }
