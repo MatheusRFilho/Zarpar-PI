@@ -16,6 +16,7 @@
 
 .formContainer {
     padding: 50px 200px 50px 0px;
+    text-align: center;
 }
 
 .formTitle {
@@ -23,28 +24,20 @@
     font-weight: bold;
     color: var(--main-text-color);
     margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
 }
 
-.Login-Field {
+.formInput {
     height: 40px;
-    width: 100%;
+    width: 325px;
     padding: 0.2em;
-    margin-top: 5px;
+
     border: 1px solid var(--border-grey);
     box-shadow: 2px 2px 2px var(--black-20-opacity);
-    transition: all .1s linear;
+    margin-top: 20px;
+
     border-radius: 5px;
-
 }
-
-.Login-Field:focus {
-    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
-    outline: none;
-}
-
-.Login-Field::placeholder {
+.formInput::placeholder {
     padding-left: 10px;
 }
 
@@ -57,20 +50,14 @@
 }
 
 .textLinkPasswordContainer {
-    
+    height: 40px;
+    width: 400px;
     align-self: center;
     justify-content: center;
     margin-top: 10px;
 }
-.Login-Error-Container {
-    
-    align-self: flex-end;
-    justify-content: right;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
 
-.Login-Btn {
+.sendButton {
     font-size: 20px;
     color: var(--white);
     text-decoration: none;
@@ -82,22 +69,17 @@
     border-radius: 5px;
     border: 0;
     cursor: pointer;
-    margin-left: 35%;
-
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
-.Login-Btn:focus {
-    outline: none;
+.sendButtonContainer {
+    box-shadow: 0px 0px 0px var(--black-20-opacity);
+    margin-bottom: 20px;
 }
-
 
 .textLinkRegister {
     font-size: 16px;
     text-decoration: none;
     color: var(--main-text-color);
-    text-align: center;
 }
 
 #footer {
@@ -105,15 +87,4 @@
     bottom: 0;
     left: 0;
     width: 100%;
-}
-
-.Login-error {
-    color: var(--main-red);
-    font-weight: bold;
-    font-size: 15px;
-    margin-left: 5px;
-}
-
-.Login {
-    margin-bottom: 10px;
 }
